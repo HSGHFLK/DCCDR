@@ -1,6 +1,6 @@
 # DGCDR
 
-Codes for paper [Disentangled Graph Representation Learning for Cross-Domain Recommendation].
+Codes for paper [Disentangled Contrastive Learning for Cross-Domain Recommendation].
 
 
 ## Requirement
