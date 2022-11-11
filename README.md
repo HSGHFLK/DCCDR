@@ -1,4 +1,4 @@
-# DGCDR
+# DCCDR
 
 Codes for paper [Disentangled Contrastive Learning for Cross-Domain Recommendation].
 
@@ -10,7 +10,7 @@ Codes for paper [Disentangled Contrastive Learning for Cross-Domain Recommendati
 
 
 ## Files in the folder
-- `DGCDR.py`: our implementation of model
+- `OurModel.py`: our implementation of model
 - `run.py`: model training and testing
 - `data/`: four cross-domain recommendation tasks based on two widely used datasets Amazon and Douban
     - `Amazon/Cell_Elec/`
