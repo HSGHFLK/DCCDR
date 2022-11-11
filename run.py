@@ -5,7 +5,7 @@ from progressbar import *
 import sys
 import time
 
-from DGCDR import DGCDR
+from OurModel import OurModel
 from utils.parser import *
 from utils.helpers import *
 from utils.load_data import *
@@ -73,7 +73,7 @@ def train():
     else:
         pretrain_data = None
 
-    model = DGCDR(data_config=config, pretrain_data=pretrain_data, args=args, device=device).to(device)
+    model = OurModel(data_config=config, pretrain_data=pretrain_data, args=args, device=device).to(device)
     optimizer = optim.Adam(model.parameters(), lr=args.lr)
     """
     *********************************************************
